@@ -7,19 +7,18 @@ Use this document as a starting point for Part 1 of the Class 4 exercise. Answer
 
 ## Questions
 1. Write the command (or commands) that will display the following message 'Hello from the command line.'
-<your-answer-here>
-
+echo 'Hello from the command line'
 2. Write the command (or commands) that will create a file named 'hello-world.txt'.
-<your-answer-here>
+touch hello-world.txt
 
 3. Write the command (or commands) that will create a folder named 'my-new-folder' in current directly.
-<your-answer-here>
+mkdir my-new-folder
 
 4. Write the command (or commands) that will attempt to delete a folder named 'my-nonexistent-folder' and display the following message when the commands fails: 'Whoops, cannot delete a folder that does not exist'.
-<your-answer-here>
+rmdir my-nonexistent-folder | echo "Whoops, cannot delete a folder that does not exist'
 
 5. Write the command (or commands) that will navigate to your desktop, and then to the parent folder.
-<your-answer-here>
+cd desktop cd ..
 
 6. Write the command (or commands) that will tell you the location of the Z Shell.
-<your-answer-here>
+which bash 
